@@ -1,0 +1,82 @@
+@import "../index.scss";
+
+.user-container {
+  width: 100vw;
+  height: 100%;
+  overflow-y: auto;
+
+  .cover {
+    margin-top: 53px;
+    width: 100vw;
+    height: 25vh;
+    cursor: pointer;
+  }
+
+  .profile {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border: 2px rgb(0, 140, 255) solid;
+    box-shadow: 0 0 12px rgb(0, 140, 255);
+    border-radius: 75px;
+    object-fit: fill;
+    margin: -100px 0 0 110px;
+  }
+
+  .user-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .user-container {
+    width: 100vw;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .sideBar-container {
+      margin-right: 0;
+    }
+
+    .user-posts-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+
+      .cover {
+        width: 100%;
+        margin: 55px 0 0 0;
+        height: 25vh;
+        object-fit: fill;
+      }
+
+      .user {
+        width: 150px;
+        height: 150px;
+        border: 2px rgb(0, 140, 255) solid;
+        box-shadow: 0 0 12px rgb(0, 140, 255);
+        border-radius: 75px;
+        object-fit: fill;
+        margin: -80px auto 0;
+      }
+
+      .user-posts {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-rows: max-content;
+        gap: 5%;
+        height: 50%;
+        margin: 1rem auto 0;
+      }
+    }
+  }
+}

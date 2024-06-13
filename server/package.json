@@ -1,0 +1,52 @@
+{
+  "name": "findme4b",
+  "version": "1.0.0",
+  "description": "Joing small bussiness and so on",
+  "main": "./index.ts",
+  "scripts": {
+    "dev": "tsnd ./index.ts",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "futurex",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/ejs": "^3.1.1",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^9.0.0",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^18.7.17",
+    "@types/passport": "^1.0.11",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "cryptojs": "^2.5.3",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "passport": "^0.6.0",
+    "passport-google-oauth": "^2.0.0",
+    "sequelize": "^6.23.0",
+    "socket.io": "^4.6.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/crypto-js": "^4.1.1",
+    "@types/express-session": "^1.17.5",
+    "@types/express-validator": "^3.0.0",
+    "@types/multer": "^1.4.7",
+    "@types/passport-google-oauth": "^1.0.42",
+    "@types/socket.io": "^3.0.2"
+  },
+  "proxy": "http://localhost:3333"
+}

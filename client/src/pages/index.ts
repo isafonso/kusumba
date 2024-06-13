@@ -1,0 +1,9 @@
+export { default as Home } from "./Home";
+export { default as Register } from "./Register";
+export { default as Login } from "./Login";
+export { default as Feed } from "./Feed";
+export { default as AddPost } from "./AddPost";
+export { default as Profile } from "./Profile";
+export { default as ProductId } from "./ProductId";
+export { default as User } from "./User";
+export { default as EditPost } from "./EditPost";
